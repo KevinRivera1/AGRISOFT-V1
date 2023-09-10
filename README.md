@@ -19,7 +19,7 @@
 
 ## Demo en Vivo
 
-Visita nuestro demo en vivo [Demo en Vivo](https://tu-demo-en-vivo.com)
+Visita nuestro demo en vivo [Demo en Vivo](https://kevinrivera1.github.io/AGRISOFT-V1/)
 
 ## Capturas de Pantalla
 
