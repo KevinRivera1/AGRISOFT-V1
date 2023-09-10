@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ===== bootstrap ===== -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+    </script>
+
+  <!-- ===== SWIPER CSS Carrusel ===== -->
+  <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+  <!-- ===== ICONOS ===== -->
+  <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+
+  <!-- ===== CSS ===== -->
+  <link rel="stylesheet" href="./assets/css/styles-dist.css">
+
+  <title>AGRISOFT</title>
+</head>
+
+<body>
+  <!--===== FLECHA DE DESPLAZAMIENTO SUPERIOR=====-->
+  <a href="#" class="scrolltop" id="scroll-top">
+    <i class='bx bx-chevron-up scrolltop__icon'></i>
+  </a>
+
+
+  <!--===== HEADER =====-->
+  <header class="l-header" id="header">
+    <nav class="nav bd-container">
+      <a href="#" class="nav__logo">AGRISOFT</a>
+      <!-- ===== MENU DE NAVEGACIÓN ===== -->
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#reportes" class="nav__link active-link"><i class='bx bxs-bell-ring'></i></a>
+          </li>
+          <li class="nav__item">
+            <a href="#testimonial" class="nav__link">¿Quiénes somos?</a>
+          </li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">Información</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contactos</a>
+          </li>
+          <li class="nav__item">
+            <a href="login.html" class="nav__link">Iniciar Sesión</a>
+          </li>
+          <li class="nav__item">
+            <a href="login.html" class="nav__link">Salir <i class='bx bx-log-out-circle'></i></a>
+          </li>
+        </ul>
+      </div>
+      <!-- ===== MENU DE BARRAS RESPONSIVE ===== -->
+      <div class="nav__toggle" id="nav-toggle">
+        <i class="bx bx-menu"></i>
+      </div>
+    </nav>
+  </header>
+  <main class="l-main">
+    <!--===== INICIO PÁGINA =====-->
+    <section class="home" id="home">
+      <div class="home__container bd-container bd-grid">
+        <div class="home__data">
+          <span class="home__greeting">Bienvenido a</span>
+          <h1 class="home__name">AGRISOFT</h1>
+          <span class="home__profession">PREVENCIÓN Y CONTROL DE PLAGAS</span>
+          <a downloand=""
+            href="https://blogs.cedia.org.ec/obest/wp-content/uploads/sites/7/2020/06/Diagn%C3%B3stico-sector-agr%C3%ADcola-Ecuador.pdf"
+            class="button button-light home__button">Sector agrícola Ecuador</a>
+        </div>
+        <div class="home__social">
+          <a href="https://es-la.facebook.com/AgriculturaEcuador/" class="home__social-icon"><i
+              class='bx bxl-facebook-square'></i></a>
+          <a href="https://www.instagram.com/agricultura.ec/?hl=es" class="home__social-icon"><i
+              class='bx bxl-instagram'></i></a>
+          <a href="https://twitter.com/AgriculturaEc?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+            class="home__social-icon"><i class='bx  bxl-twitter'></i></a>
+        </div>
+
+        <div class="home__img">
+          <img src="assets/img/co.png" alt="imagen">
+        </div>
+
+      </div>
+    </section>
+    <!--===== Acerca de =====-->
+    <section class="about section bd-container" id="about">
+      <span class="section-subtitle">Proyecto integrador</span>
+      <h2 class="section-title">AGRISOFT</h2>
+
+      <div class="about__container bd-grid">
+        <div class="about__data bd-grid">
+          <p class="about__description"><span>Nuestro objetivo<br></span>Diseñar una página web para que el agricultor
+            tenga una buena información sobre los tipos de plagas que esten afectando los cultivos agrícolas del
+            Ecuador. <br>
+          <h2>A continuación especificamos los objetivos de nuestro proyecto:</h2>
+          </p>
+          <div>
+            <span class="about__number">01</span>
+            <span class="about__achievement">Dar información relevante sobre las distintas plagas de gran impacto que
+              afecten a la producción agrícola.</span>
+          </div>
+          <div>
+            <span class="about__number">02</span>
+            <span class="about__achievement">Mantener el control químico dentro de su fase preventiva con la finalidad
+              de minimizar las aplicaciones de plaguicidas y reducir el impacto al entorno ambiental</span>
+          </div>
+          <div>
+            <span class="about__number">03</span>
+            <span class="about__achievement">Minimizar los costes e impedir la propagación de dichas plagas que afectan
+              a la producción de los agricultores del Ecuador</span>
+          </div>
+        </div>
+        <div class="img-content-section">
+          <img src="assets/img/333.jpg" alt="imagen" class="about__img">
+        </div>
+      </div>
+    </section>
+
+    <!--===== CALIFICACIÓN Y REPORTE DE PLAGAS =====-->
+    <section class="qualification section bd-container" id='reportes'>
+      <span class="section-subtitle">Sección de reportes</span>
+      <h2 class="section-title">REPORTES Y PERDIDAS POR PLAGAS</h2>
+
+      <div class="qualification__container bd-grid">
+        <div class="qualification__content">
+          <h2 class="qualification__title">
+            <i class='bx bx-broadcast qualification__title-icon'></i>
+            Reportes mas recientes:
+          </h2>
+          <div class="bd-grid">
+            <div class="qualification__data">
+              <h3 class="qualification__area">El Oro-Producción del banano</h3>
+              <div class="qualification__box">
+                <span class="qualification__work">
+                  <i class="bx bx-bug-alt qualification__title-icon"></i>
+                  Reporte de <b>PESTE NEGRA</b>
+                </span>
+
+                <span class="qualification__work">
+                  <i class="bx bx-calendar-alt qualification__title-icon"></i>
+                  Miercoles 18 de Agosto de 2021
+                </span>
+              </div>
+            </div>
+
+            <div class="qualification__data">
+              <h3 class="qualification__area">Chimborazo-Producción de papa</h3>
+              <div class="qualification__box">
+                <span class="qualification__work">
+                  <i class="bx bx-bug-alt qualification__title-icon"></i>
+                  Reporte de <b>POLILLA DE PAPA</b>
+                </span>
+
+                <span class="qualification__work">
+                  <i class="bx bx-calendar-alt qualification__title-icon"></i>
+                  Jueves 19 de Agosto de 2021
+                </span>
+              </div>
+            </div>
+
+            <div class="qualification__data">
+              <h3 class="qualification__area">Guayaquil-Producción de arroz</h3>
+              <div class="qualification__box">
+                <span class="qualification__work">
+                  <i class="bx bx-bug-alt qualification__title-icon"></i>
+                  Reporte de <b>ACARO DE ARROZ</b>
+                </span>
+
+                <span class="qualification__work">
+                  <i class="bx bx-calendar-alt qualification__title-icon"></i>
+                  Viernes 20 de Agosto de 2021
+                </span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="qualification__content">
+          <h2 class="qualification__title">
+            <i class="bx bx-line-chart-down qualification__title-icon"></i>
+            Productos mas afectados
+          </h2>
+          <div class="bd-grid">
+            <div class="qualification__data">
+              <h3 class="qualification__area">El Oro-Producción del banano</h3>
+              <div class="qualification__box">
+                <span class="qualification__work">
+                  <i class="bx bxs-florist qualification__title-icon"></i>
+                  <b>Perdida:</b> 400/Hec
+                </span>
+
+                <span class="qualification__work">
+                  <i class="bx bx-dollar bx-tada-alt qualification__title-icon"></i>
+                  <b>Economía:</b> $-200.000
+                </span>
+              </div>
+            </div>
+
+            <div class="qualification__data">
+              <h3 class="qualification__area">Guayaquil-Producción de arroz</h3>
+              <div class="qualification__box">
+                <span class="qualification__work">
+                  <i class="bx bxs-florist qualification__title-icon"></i>
+                  <b>Perdida:</b> 700/Hec
+                </span>
+
+                <span class="qualification__work">
+                  <i class="bx bx-dollar bx-tada-alt qualification__title-icon"></i>
+                  <b>Economía:</b> $-500.000
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--===== SECCION DE HERRAMIENTAS =====-->
+    <section class="services section bd-container" id="services">
+      <span class="section-subtitle">Sección de fungicidas</span>
+      <h2 class="section-title">Fungicidas mas utilizados</h2>
+
+
+      <div class="services__container bd-grid">
+        <div class="services__data">
+          <i class="bx bxs-virus-block services__icon"></i>
+          <h3 class="services__title">Mikal® Plus</h3>
+          <p class="services__description">Aplicar solo en invernadero desde BBCH 13 (3ª hoja verdadera del tallo
+            principal desplegada) hasta BBCH 93 (madurez completa) mediante tractor con pulverizador hidroneumático tipo
+            cañon atomizador aplicado desde el exterior, instalaciones fijas automatizadas o carretilla manual.
+            Máximo 2 aplicaciones con un intervalo de 14 días.
+          </p>
+          <a href="https://www.cropscience.bayer.es/Productos/Fungicidas/Mikal-Plus" class="button">Mas información</a>
+        </div>
+
+        <div class="services__data">
+          <i class="bx bxs-virus-block services__icon"></i>
+          <h3 class="services__title">Flint® Max</h3>
+          <p class="services__description">Flint® Max es un fungicida que aúna las características de sistemicidad con
+            las propiedades de contacto y penetrantes. Flint Max presenta una elevada eficacia contra enfermedades de
+            viña (oídio, botritis y gangrena negra o black-rot), frutales de hueso (oídio y monilia), olivo (repilo) y
+            ajo y cebolla (roya y estemfilium).</p>
+          <a href="https://www.cropscience.bayer.es/Productos/Fungicidas/Flint-Max" class="button">Mas información</a>
+        </div>
+
+        <div class="services__data">
+          <i class="bx bxs-virus-block services__icon"></i>
+          <h3 class="services__title">Sonata®</h3>
+          <p class="services__description">Sonata es un fungicida biológico foliar preventivo que se utiliza para
+            combatir oídio en múltiples cultivos. Sonata contiene la bacteria Bacillus pumilus cepa QST 2808. Compite
+            con la enzima responsable de la fijación de glucosa en la pared celular de los hongos, además de activar las
+            defensas de la planta y promocionar su crecimiento.</p>
+          <a href="https://www.cropscience.bayer.es/Productos/Fungicidas/Sonata" class="button">Mas información</a>
+        </div>
+
+        <div class="services__data">
+          <i class="bx bxs-bug services__icon"></i>
+          <h3 class="services__title">Volare®</h3>
+          <p class="services__description">VOLARE es un fungicida a base de fluopicolida y propamocarb para el control
+            de mildius en hortícolas y patata. Su nuevo modo de acción con fluopicolida, de excepcional nivel de
+            eficacia, junto con el de propamocarb de probada eficacia tradicional, constituye una potente herramienta
+            para controlar los mildius.</p>
+          <a href="https://www.cropscience.bayer.es/Productos/Fungicidas/Volare" class="button">Mas información</a>
+        </div>
+
+        <div class="services__data">
+          <i class="bx bxs-bug services__icon"></i>
+          <h3 class="services__title">Folicur® 25 EW</h3>
+          <p class="services__description">Folicur 25 EW es un producto fungicida de amplio espectro de acción y
+            propiedades sistémicas. Se caracteriza por su acción altamente eficaz contra hongos causantes de botritis,
+            oídios, royas y repilo. Como producto perteneciente al grupo de los triazoles, se caracteriza igualmente por
+            su efecto no sólo preventivo sino también curativo y erradicativo</p>
+          <a href="https://www.cropscience.bayer.es/Productos/Fungicidas/Folicur-25-EW" class="button">Mas
+            información</a>
+        </div>
+
+        <div class="services__data">
+          <i class="bx bxs-bug services__icon"></i>
+          <h3 class="services__title">Fandango®</h3>
+          <p class="services__description">Fandango® es un fungicida que combina fluoxastrobin, nueva sustancia activa
+            perteneciente a la familia química de las estrobilurinas, con protioconazol, para el control de las
+            principales enfermedades foliares en cebolla: mildiu, estemfiliosis y roya.</p>
+          <a href="https://www.cropscience.bayer.es/Productos/Fungicidas/Fandango" class="button">Mas información</a>
+        </div>
+      </div>
+    </section>
+
+
+    <!--===== PROJECTO EN MENTE =====-->
+    <section class="project section bd-container">
+      <div class="project__container bd-grid">
+        <div class="project__data">
+          <i class='bx bxs-file-pdf project__icon'></i>
+
+          <div>
+            <h2 class="project__title">UML Proyecto integrador</h2>
+            <p class="project__description">Conoce nuestro diagrama de casos de uso y requerimientos del proyecto
+              integrador </p>
+          </div>
+
+          <div>
+            <a href="https://drive.google.com/file/d/1Q1SgyKp4I8FdvPwKbxO9LZSfPGdPGFqP/view?usp=sharing"
+              class="button button-white">Mostrar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== INFORMACIÓN ===== -->
+    <section class="portfolio section bd-container" id="portfolio">
+      <span class="section-subtitle">Sección de información de plagas</span>
+      <h2 class="section-title">Identificación de plagas en Ecuador</h2>
+
+      <div class="portfolio__nav">
+        <span class="portfolio__item active-portfolio" data-filter="all">TODAS LAS PLAGAS</span>
+        <span class="portfolio__item" data-filter=".web">Costa</span>
+        <span class="portfolio__item" data-filter=".ux">Sierra</span>
+        <span class="portfolio__item" data-filter=".app">Oriente</span>
+      </div>
+
+      <div class="portfolio__container bd-grid">
+        <div class="portfolio__content mix web">
+          <a
+            href="https://www.croplifela.org/es/plagas/listado-de-plagas/sigatoka-negra#:~:text=Es%20una%20destructiva%20enfermedad%20foliar,g%C3%A9nero%20Musa%3A%20banano%20y%20pl%C3%A1tano.&text=La%20Sigatoka%20es%20la%20enfermedad,por%20primera%20vez%20en%201912."><img
+              src="assets/img/babano.jpg" alt="imagen banano" class="portfolio__img"></a>
+          <div class="portfolio__data">
+            <span class="portfolio__subtitle">Costa</span>
+            <a
+              href="https://www.croplifela.org/es/plagas/listado-de-plagas/sigatoka-negra#:~:text=Es%20una%20destructiva%20enfermedad%20foliar,g%C3%A9nero%20Musa%3A%20banano%20y%20pl%C3%A1tano.&text=La%20Sigatoka%20es%20la%20enfermedad,por%20primera%20vez%20en%201912.">
+              <h2 class="portfolio__title">Plaga bananera Sigatoka</h2>
+            </a>
+            <p>La Sigatoka negra es otra de las enfermedades que ataca a las plantaciones de banano y así mismo es un
+              hongo, Mycosphaerella Fijiensis, el cual se transmite por el aire e impacta en rendimiento de los
+              cultivos, produciendo daño en las hojas y afectando la nutrición de las plantas (disminuyendo tasa de
+              transpiración y fotosíntesis). En algunos casos afecta también la maduración de la fruta, incidiendo en la
+              comercialización, ya que el banano tipo exportación debe salir verde desde el puerto de embarque y tiene
+              que llegar de la misma manera al país de destino.</p>
+            <a href="https://www.croplifela.org/es/plagas/listado-de-plagas/sigatoka-negra#:~:text=Es%20una%20destructiva%20enfermedad%20foliar,g%C3%A9nero%20Musa%3A%20banano%20y%20pl%C3%A1tano.&text=La%20Sigatoka%20es%20la%20enfermedad,por%20primera%20vez%20en%201912."
+              class="button button-link">Conoce mas</a>
+          </div>
+        </div>
+
+        <div class="portfolio__content mix web">
+          <a href="http://www.mag.go.cr/rev_meso/v30n01_281.pdf"><img src="assets/img/chchch.jpg" alt="imagen"
+              class="portfolio__img"></a>
+          <div class="portfolio__data">
+            <span class="portfolio__subtitle">Costa</span>
+            <a href="http://www.mag.go.cr/rev_meso/v30n01_281.pdf">
+              <h2 class="portfolio__title">Cochinillo de banano</h2>
+            </a>
+            <p>Las cochinillas son insectos de la familia Pseudococcidae y pueden afectar todas las etapas de desarrollo
+              del cultivo, así como causar pérdidas de cosecha, al provocar rechazo en la fruta para exportación. Los
+              daños en el cultivo se manifiestan en el debilitamiento de la planta y también se puede observar
+              decoloraciones de las hojas, acompañadas de necrosis en los bordes.</p>
+            <a href="http://www.mag.go.cr/rev_meso/v30n01_281.pdf" class="button button-link">Conoce mas</a>
+          </div>
+        </div>
+
+        <div class="portfolio__content mix ux">
+          <a href="http://www.ecuaquimica.com.ec/wp-content/uploads/2017/09/info_tecnica_papa.pdf"><img
+              src="assets/img/tuberculo.jpg" alt="imagen tuberculo" class="portfolio__img"></a>
+          <div class="portfolio__data">
+            <span class="portfolio__subtitle">Región sierra</span>
+            <a href="http://www.ecuaquimica.com.ec/wp-content/uploads/2017/09/info_tecnica_papa.pdf">
+              <h2 class="portfolio__title">Gusano blanco de tubérculo</h2>
+            </a>
+            <p>El adulto consume con mayor
+              agrado las hojas (foliolos) del
+              tercio medio e inferior de la
+              planta por su mayor
+              contenido de azúcares y
+              menor cantidad de alcaloides
+              (sabor amargo). Este insecto
+              puede ocasionar pérdida total
+              de la cosecha cuando no
+              existe un adecuado control.
+              Las larvas del insecto
+              ocasionan daños severos,
+              produciendo perforaciones a
+              manera de galerías en los
+              tubérculos.
+              En promedio el ciclo biológico
+              del insecto desde huevecillo
+              hasta adulto es de 134 días
+              en, la longevidad del adulto
+              llega hasta los 280 días y la
+              hembra puede colocar hasta
+              260 huevos a una
+              temperatura de 16°C
+              promedio.
+            </p>
+            <a href="http://www.ecuaquimica.com.ec/wp-content/uploads/2017/09/info_tecnica_papa.pdf"
+              class="button button-link">Conoce mas</a>
+          </div>
+        </div>
+
+        <div class="portfolio__content mix ux">
+          <a
+            href="https://www.campogalego.es/sintomas-y-tratamiento-del-gusano-del-alambre-en-maiz/#:~:text=El%20gusano%20del%20alambre%20es%20la%20larva%20de%20los%20insectos,en%20el%20cultivo%20del%20ma%C3%ADz."><img
+              src="assets/img/gusano-del-alambre.jpg" alt="imagen gusano de alambre" class="portfolio__img"></a>
+          <div class="portfolio__data">
+            <span class="portfolio__subtitle">Región sierra</span>
+            <a
+              href="https://www.campogalego.es/sintomas-y-tratamiento-del-gusano-del-alambre-en-maiz/#:~:text=El%20gusano%20del%20alambre%20es%20la%20larva%20de%20los%20insectos,en%20el%20cultivo%20del%20ma%C3%ADz.">
+              <h2 class="portfolio__title">Gusano del alambre</h2>
+            </a>
+            <p>El gusano del alambre es la larva de los insectos de la familia de los elatéridos (Agriotes y Athous, son
+              los que más daños provocan en agricultura de la 7.000 especies conocidas) y se trata de una de las plagas
+              más frecuentes y que más daños provocan en el cultivo del maíz, Los ataques del gusano del alambre se
+              reparten por focos o manchas en las parcelas de maíz</p>
+            <a href="https://www.campogalego.es/sintomas-y-tratamiento-del-gusano-del-alambre-en-maiz/#:~:text=El%20gusano%20del%20alambre%20es%20la%20larva%20de%20los%20insectos,en%20el%20cultivo%20del%20ma%C3%ADz."
+              class="button button-link">Conoce mas</a>
+          </div>
+        </div>
+
+        <div class="portfolio__content mix app">
+          <a
+            href="https://www.ppd-ecuador.org/wp-content/uploads/2019/FondoBecas/Amazonia/INFORME-Sacha-Inchi-Cindy-Orozco.pdf"><img
+              src="assets/img/Mirador.jpg" alt="imagen" class="portfolio__img"></a>
+          <div class="portfolio__data">
+            <span class="portfolio__subtitle">Región Oriente/Amazonía</span>
+            <a
+              href="https://www.ppd-ecuador.org/wp-content/uploads/2019/FondoBecas/Amazonia/INFORME-Sacha-Inchi-Cindy-Orozco.pdf">
+              <h2 class="portfolio__title">Minador de las hojas</h2>
+            </a>
+            <p>Se ha observado su ataque en períodos de sequía. El adulto de esta plaga deposita
+              sus huevos en las hojas y luego al pasar a larvas
+              se alimentan de la savia de las hojas,
+              ocasionando manchas marrones por la muerte
+              de las células. En ataques severos se
+              recomienda el uso racional de productos
+              químicos de origen orgánico, pero también se
+              ha observado que las lluvias provocan el
+              “ahogamiento de las larvas”, por lo que la plaga
+              desaparece inmediatamente. En la zona también se observa el control biológico de
+              esta plaga, se realiza la “avispita de Uganda”</p>
+            <a href="https://www.ppd-ecuador.org/wp-content/uploads/2019/FondoBecas/Amazonia/INFORME-Sacha-Inchi-Cindy-Orozco.pdf"
+              class="button button-link">Conoce mas</a>
+          </div>
+        </div>
+
+        <div class="portfolio__content mix app">
+          <a
+            href="https://www.ppd-ecuador.org/wp-content/uploads/2019/FondoBecas/Amazonia/INFORME-Sacha-Inchi-Cindy-Orozco.pdf"><img
+              src="assets/img/comedor.jpg" alt="imagen" class="portfolio__img"></a>
+          <div class="portfolio__data">
+            <span class="portfolio__subtitle">Región Oriente/Amazonía</span>
+            <a
+              href="https://www.ppd-ecuador.org/wp-content/uploads/2019/FondoBecas/Amazonia/INFORME-Sacha-Inchi-Cindy-Orozco.pdf">
+              <h2 class="portfolio__title">Insectos comedores de hojas </h2>
+            </a>
+            <p>Durante el desarrollo del cultivo se han
+              presentado diversos insectos comedores de
+              hojas, pero su infestación ha sido estacional y no
+              han significado mayor peligro para la planta. La
+              recomendación es mantener el campo libre de
+              malezas y no aplicar insecticidas
+              indiscriminadamente, pues se ha observado la presencia de muchos controladores
+              biológicos como las “mariquitas”. Para el control de gusanos se recomienda el uso
+              de insecticidas orgánicos a base barbasco, ají, etc.</p>
+            <a href="https://www.ppd-ecuador.org/wp-content/uploads/2019/FondoBecas/Amazonia/INFORME-Sacha-Inchi-Cindy-Orozco.pdf"
+              class="button button-link">Conoce mas</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--===== TESTIMONIOS ADMINISTRADORES TIPO CARRUSEL=====-->
+    <section class="testimonial section bd-container" id="testimonial">
+      <span class="section-subtitle">Integrantes</span>
+      <h2 class="section-title">Información de cada integrante</h2>
+
+      <div class="testimonial__container swiper-container">
+        <div class="swiper-wrapper">
+          <div class="testimonial__content swiper-slide">
+            <img src="assets/img/pp.jpg" alt="imagen" class="testimonial__img">
+            <h3 class="testimonial__title">Oliver Pérez</h3>
+            <span class="testimonial__client">Estudiante de desarrollo de software</span>
+            <p class="testimonial__description">Mi nombre es Oliver Pérez estoy estudiando la carerra Desarollo de
+              Software en el instituto Yavirac y estoy cursando el primer semestre, decidí apoyar hacer el tema de este
+              proyecto ya que siento que la falta de apoyo al agricultor es muy poca y necesitamos apoyar mas a nuestros
+              agricultores ecuatorianos, poniendo nuestro granito de arena podemos empezar un cambio grande para
+              nuestros productos.</p>
+          </div>
+
+          <div class="testimonial__content swiper-slide">
+            <img src="assets/img/mm.jpg" alt="imagen" class="testimonial__img">
+            <h3 class="testimonial__title">Michael Moran</h3>
+            <span class="testimonial__client">Estudiante de desarrollo de software</span>
+            <p class="testimonial__description">Me llamo Michael Moran soy estudiante de la carrera de desarrollo de
+              software en el instituto Yavirac actualmente estoy cursando el primer semestre, escogí este proyecto
+              debido a que la agricultura del ecuador es reconocido como un importante sector en la que los agricultores
+              presentan inconvenientes a la hora que cultivar su productos debido al ataque de las plagas.</p>
+          </div>
+
+          <div class="testimonial__content swiper-slide">
+            <img src="assets/img/ll.jpg" alt="imagen" class="testimonial__img">
+            <h3 class="testimonial__title">Pamela Guananga</h3>
+            <span class="testimonial__client">Estudiante de desarrollo de software</span>
+            <p class="testimonial__description">Mi nombre es Pamela Guananga soy estudiante del Instituto “Yavirac” en
+              la carrera de ” Desarrollo de Software “decidí hacer este proyecto ya que hoy en día el agricultor se ve
+              muy afectado ya que ha tenido una gran pérdida de cultivos o por falta de economía Ecuatoriana y con esto
+              ayudaríamos a los agricultores a prevenir cualquier tipo de plaga para que no se vea afectado en su
+              cultivo.</p>
+          </div>
+
+          <div class="testimonial__content swiper-slide">
+            <img src="assets/img/rr.jpg" alt="imagen" class="testimonial__img">
+            <h3 class="testimonial__title">Kevin Rivera</h3>
+            <span class="testimonial__client">Estudiante de desarrollo de software</span>
+            <p class="testimonial__description">Soy estudiante del Instituto Superior Tecnológico de Turismo y
+              Patrimonio Yavirac de la carrera de "Desarrollo de Software", hemos decidido realizar este proyecto para
+              ayudar al agricultor Ecuatoriano con la información necesaria para combatir las plagas que esta afectando
+              en gran medida a los cultivos, proporcionandole la información del material a utilizar para combatirlas .
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      </div>
+    </section>
+    <!--===== CONTACTOS =====-->
+    <section class="contact section bd-container" id="contact">
+      <span class="section-subtitle">Sección contactos</span>
+      <h2 class="section-title">Contactos</h2>
+
+      <div class="contact__container bd-grid">
+        <div class="contact__content bd-grid">
+          <div class="contact__box">
+            <i class="bx bx-home contact__icon"></i>
+            <h3 class="contact__title">locación</h3>
+            <span class="contact__description">Ecuador, Quito</span>
+          </div>
+
+          <div class="contact__box">
+            <i class="bx bx-phone contact__icon"></i>
+            <h3 class="contact__title">Teléfono</h3>
+            <span class="contact__description">099-924-999</span>
+          </div>
+
+          <div class="contact__box">
+            <i class="bx bx-envelope contact__icon"></i>
+            <h3 class="contact__title">Gmail</h3>
+            <span class="contact__description">shimpo11@outlook.com</span>
+          </div>
+
+          <div class="contact__box">
+            <i class="bx bx-chat contact__icon"></i>
+            <h3 class="contact__title">Chat</h3>
+            <div>
+              <a href="https://chat.whatsapp.com/GhwqSnStSxRI4dTtVASe39" class="contact__social"> <i
+                  class="bx bxl-whatsapp-square"></i></a>
+              <a href="https://web.telegram.org/z/" class="contact__social"> <i class="bx bxl-telegram"></i></a>
+              <a href="https://www.facebook.com/" class="contact__social"> <i class="bx bxl-messenger"></i></a>
+            </div>
+          </div>
+        </div>
+        <form action="mailto:shimpo11@outlook.com" method="post" enctype="text/plain" class="contact__form">
+          <div class="contatc__inputs">
+            <input type="text" placeholder="Nombre" class="contact__input">
+            <input type="email" placeholder="Correo electrónico" class="contact__input"
+              pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$"
+              title="Introduce un correo valido Ejemplo: Usuario@gmail.com" required>
+          </div>
+
+          <div class="contatc__inputs">
+            <input type="number" placeholder="Número" class="contact__input">
+          </div>
+
+          <textarea name="" id="" cols="30" rows="7" placeholder="Mensaje" class="contact__input"></textarea>
+
+          <input type="submit" value="Enviar" class="button contact__button">
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!--===== PIE DE PÁGINA Y LICENCIA CREATIVE COMMONDS=====-->
+  <footer class="footer">
+    <div class="footer__description bd-container">
+      <h1 class="footer__title">
+        <h3>Instituto Tecnológico de Turismo y Patrimonio Yavirac</h3>
+      </h1>
+      <p class="footer__description">AGRISOFT</p>
+      <div class="authors_socials">
+        <a href="https://github.com/OliverPerezyavirac/AGRISOFT.git" class="footer__link"><br><i
+            class='bx bxl-github'></i>Oliver Pérez</a>
+        <a href="https://github.com/KevinRivera1/AGRISOFT" class="footer__link"><br><i class='bx bxl-github'></i>Kevin
+          Rivera</a>
+        <a href="https://github.com/Michael7543/AGRISOFT" class="footer__link"><br>
+          <i class='bx bxl-github'></i>
+          Michael Moran</a>
+        <a href="https://github.com/PamelaMichelle/AGRISOFT" class="footer__link"><br><i class='bx bxl-github'></i>Pamela
+          Guananga</a>
+      </div>
+
+      <!-- ===== LICENCIA CREATIVE COMMONS ===== -->
+      <div class="license-commons">
+        <a class="license-link"rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licencia Creative Commons"
+            style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" />
+        </a>
+        <a class="license-link-mf" rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Licencia Creative Commons
+          Atribución-NoComercial-SinDerivadas 4.0 Internacional
+        </a>
+
+      </div>
+      <p class="footer__copy">&#169;Proyecto integrador Insituto Tecnológico Yavirac</p>
+    </div>
+  </footer>
+
+  <!-- ===== FILTROS ANIMADOS ===== -->
+  <script src="assets/js/mixitup.min.js"></script>
+
+  <!-- ===== SWIPER JS ANIMACIONES ===== -->
+  <script src="assets/js/swiper-bundle.min.js"></script>
+
+  <!-- ===== GSAP ANIMACIONES ===== -->
+  <script src="assets/js/gsap.min.js"></script>
+
+  <!--===== PRINCIPAL JS =====-->
+  <script src="assets/js/main.js"></script>
+  <script src="./recursos/js/loginJS.js"></script>
+</body>
+
+</html>
